@@ -1,0 +1,21 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pixel Basset Runner</title>
+  <style>
+    body { margin: 0; background: #111; display: grid; place-items: center; height: 100vh; }
+    canvas { image-rendering: pixelated; border: 2px solid #444; }
+    .hint { color: #bbb; font-family: system-ui, sans-serif; margin-top: 12px; text-align: center; }
+  </style>
+</head>
+<body>
+  <div>
+    <canvas id="game" width="320" height="192"></canvas>
+    <div class="hint">Space / W / ↑ to jump • Avoid obstacles • Collect treats</div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
